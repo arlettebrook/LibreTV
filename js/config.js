@@ -22,36 +22,6 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    Navigation Menu
-LibreSpark
-LibreTV
-
-Code
-Issues
-84
-This repository was archived by the owner on Aug 13, 2025. It is now read-only.
-移除所有内置影视源 #867
- Merged
-bestZwei merged 2 commits into LibreSpark:main from bestZwei:main  last week
-Conversation 1
-Commits 2
-Checks 1
-Files changed 1
-File filter 
- 
-Remove all API site configurations from config.js
- main (#867)
-@bestZwei
-bestZwei committed last week 
-commit c7b7dbb65ca323f33f45a18c248139fbc309f267
-  94 changes: 1 addition & 93 deletions94  
-js/config.js
-Copied!
-Original file line number	Diff line number	Diff line change
-@@ -22,103 +22,11 @@ const SITE_CONFIG = {
-
-// API站点配置
-const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
